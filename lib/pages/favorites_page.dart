@@ -21,7 +21,7 @@ class FavoritesPage extends StatelessWidget {
     userProvider.deleteFavorite(id);
     _showMessage(
       context,
-      'Cet article a bien été retiré de votre liste de favoris!',
+      'Priča je uklonjena sa liste omiljenih.',
     );
   }
 
@@ -49,7 +49,7 @@ class FavoritesPage extends StatelessWidget {
             AppBar(
               elevation: 0,
               title: Text(
-                'Filtrer les favoris',
+                'Lista omiljenih priča.',
               ),
               actions: <Widget>[
                 IconButton(
