@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:flutter_news_app/models/article_category.dart';
+import 'package:zenstories/models/article_category.dart';
 
-import 'package:flutter_news_app/widgets/category_selector.dart';
-import 'package:flutter_news_app/providers/categories.dart';
+import 'package:zenstories/widgets/category_selector.dart';
+import 'package:zenstories/providers/categories.dart';
 
 class Categories extends StatefulWidget {
   @override

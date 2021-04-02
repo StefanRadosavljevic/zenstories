@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:flutter_news_app/widgets/articles.dart';
-import 'package:flutter_news_app/widgets/categories.dart';
+import 'package:zenstories/widgets/articles.dart';
+import 'package:zenstories/widgets/categories.dart';
 
-import 'package:flutter_news_app/providers/articles.dart';
+import 'package:zenstories/providers/articles.dart';
 
 class HomePage extends StatelessWidget {
   static const routeName = '/home';

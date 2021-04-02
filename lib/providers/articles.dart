@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:flutter_news_app/models/article.dart';
-import 'package:flutter_news_app/constants.dart';
+import 'package:zenstories/models/article.dart';
+import 'package:zenstories/constants.dart';
 
 class ArticlesProvider with ChangeNotifier {
   final _pageSize = 20;

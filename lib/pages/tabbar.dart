@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_news_app/pages/home_page.dart';
-import 'package:flutter_news_app/pages/favorites_page.dart';
-import 'package:flutter_news_app/pages/bookmarks_page.dart';
+import 'package:zenstories/pages/home_page.dart';
+import 'package:zenstories/pages/favorites_page.dart';
+import 'package:zenstories/pages/bookmarks_page.dart';
 
 class Tabbar extends StatefulWidget {
   static final routeName = '/';

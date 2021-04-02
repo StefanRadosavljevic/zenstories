@@ -3,16 +3,16 @@ import 'package:provider/provider.dart';
 import 'package:share/share.dart';
 import 'dart:math' as Math;
 
-import 'package:flutter_news_app/providers/articles.dart';
-import 'package:flutter_news_app/providers/categories.dart';
-import 'package:flutter_news_app/providers/user.dart';
+import 'package:zenstories/providers/articles.dart';
+import 'package:zenstories/providers/categories.dart';
+import 'package:zenstories/providers/user.dart';
 
-import 'package:flutter_news_app/widgets/article_card_item.dart';
-import 'package:flutter_news_app/widgets/article_list_item.dart';
-import 'package:flutter_news_app/widgets/article_options.dart';
+import 'package:zenstories/widgets/article_card_item.dart';
+import 'package:zenstories/widgets/article_list_item.dart';
+import 'package:zenstories/widgets/article_options.dart';
 
-import 'package:flutter_news_app/pages/details_page.dart';
-import 'package:flutter_news_app/models/article.dart';
+import 'package:zenstories/pages/details_page.dart';
+import 'package:zenstories/models/article.dart';
 
 class Articles extends StatefulWidget {
   @override

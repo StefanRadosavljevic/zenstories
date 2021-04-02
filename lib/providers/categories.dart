@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-import 'package:flutter_news_app/constants.dart';
-import 'package:flutter_news_app/models/article_category.dart';
+import 'package:zenstories/constants.dart';
+import 'package:zenstories/models/article_category.dart';
 
 class CategoriesProvider extends ChangeNotifier {
   List<ArticleCategory> _categories;

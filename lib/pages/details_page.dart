@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:flutter_news_app/providers/articles.dart';
+import 'package:zenstories/providers/articles.dart';
 
 class DetailsPage extends StatelessWidget {
   static const routeName = '/details';

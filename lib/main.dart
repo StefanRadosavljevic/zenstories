@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
-import 'package:flutter_news_app/pages/details_page.dart';
-import 'package:flutter_news_app/pages/tabbar.dart';
+import 'package:zenstories/pages/details_page.dart';
+import 'package:zenstories/pages/tabbar.dart';
 
-import 'package:flutter_news_app/providers/articles.dart';
-import 'package:flutter_news_app/providers/categories.dart';
-import 'package:flutter_news_app/providers/user.dart';
+import 'package:zenstories/providers/articles.dart';
+import 'package:zenstories/providers/categories.dart';
+import 'package:zenstories/providers/user.dart';
 
 class FlutterNewsApp extends StatelessWidget {
   // This widget is the root of your application.

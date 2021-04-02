@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:flutter_news_app/providers/user.dart';
-import 'package:flutter_news_app/providers/articles.dart';
+import 'package:zenstories/providers/user.dart';
+import 'package:zenstories/providers/articles.dart';
 
-import 'package:flutter_news_app/widgets/article_list_item.dart';
+import 'package:zenstories/widgets/article_list_item.dart';
 
-import 'package:flutter_news_app/pages/details_page.dart';
+import 'package:zenstories/pages/details_page.dart';
 
 class FavoritesPage extends StatelessWidget {
   void _showMessage(BuildContext context, String message) {
