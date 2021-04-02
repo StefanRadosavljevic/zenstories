@@ -45,6 +45,6 @@ class FlutterNewsApp extends StatelessWidget {
 }
 
 void main() {
-  timeago.setLocaleMessages('fr', timeago.FrMessages());
+  timeago.setLocaleMessages('en', timeago.EnMessages());
   return runApp(FlutterNewsApp());
 }

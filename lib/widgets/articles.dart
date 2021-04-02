@@ -84,10 +84,10 @@ class _ArticlesState extends State<Articles> {
     if (!userProvider.isFavorite(id)) {
       userProvider.addFavorite(id);
       _showMessage(
-        'Cet article a bien été ajouté dans votre liste de favoris!',
+        'Priča je dodata u listu omiljenih priča.',
       );
     } else {
-      _showMessage('Cet article figure deja dans vos favoris!');
+      _showMessage('Priča je već u listi vaših omiljenih priča.');
     }
   }
 
@@ -205,7 +205,7 @@ class _ArticlesState extends State<Articles> {
                           Container()
                         else if (!_isLoadingNextPage)
                           FlatButton(
-                            child: Text('Voir plus'),
+                            child: Text('Učitaj još'),
                             onPressed: _nextPage,
                           )
                         else
