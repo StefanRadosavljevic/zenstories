@@ -34,8 +34,8 @@ class _TabbarState extends State<Tabbar> {
         selectedItemColor: Colors.red,
         items: [
           BottomNavigationBarItem(
-            icon: new Icon(Icons.home),
-            title: new Text('Istrazi'),
+            icon: new Icon(Icons.explore),
+            title: new Text('Istraži'),
           ),
           BottomNavigationBarItem(
             icon: new Icon(Icons.favorite),
@@ -43,7 +43,7 @@ class _TabbarState extends State<Tabbar> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.watch_later),
-            title: Text('Sacuvani'),
+            title: Text('Sačuvani'),
           )
         ],
         onTap: onTabTapped,
