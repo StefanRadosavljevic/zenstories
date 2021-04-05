@@ -25,7 +25,7 @@ class DetailsPage extends StatelessWidget {
     int articleId = ModalRoute.of(context).settings.arguments;
     var article = articlesProvider.findById(articleId);
     return Scaffold(
-      appBar: AppBar(title: Text('Détails')),
+      appBar: AppBar(title: Text('')),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: WebView(

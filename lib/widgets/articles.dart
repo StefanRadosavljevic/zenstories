@@ -54,7 +54,7 @@ class _ArticlesState extends State<Articles> {
     if (!userProvider.isBookmarked(id)) {
       userProvider.addBookmark(id);
       _showMessage(
-        'Cet article a bien été ajouté dans votre liste de signets!',
+        'Priča je uspešno dodata na listu sačuvanih.',
       );
     }
   }
@@ -63,7 +63,7 @@ class _ArticlesState extends State<Articles> {
     Navigator.of(context).pop();
     var userProvider = Provider.of<UserProvider>(context, listen: false);
     userProvider.hideArticle(id);
-    _showMessage('Cet article a bien été ajoutée dans votre liste noire!');
+    _showMessage('Priča je uspešno dodata na crnu listu. ');
   }
 
   void _share(int id) async {

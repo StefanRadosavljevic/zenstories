@@ -21,7 +21,7 @@ class BookmarksPage extends StatelessWidget {
     userProvider.deleteBookmark(id);
     _showMessage(
       context,
-      'Cet article a bien été supprimé de votre liste de signets!',
+      'Priča je uspešno uklonjena sa vaše liste sačuvanih.',
     );
   }
 
@@ -49,7 +49,7 @@ class BookmarksPage extends StatelessWidget {
             AppBar(
               elevation: 0,
               title: Text(
-                'Filtrer les signets',
+                'Sačuvane priče.',
               ),
               actions: <Widget>[
                 IconButton(
